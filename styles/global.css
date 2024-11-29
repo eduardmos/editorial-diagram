@@ -1,0 +1,175 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Oswald", "Inter", serif, Helvetica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* ----------------Header----------------- */
+.contain-general-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden; 
+    height: 60vh;
+}
+
+.words-header{
+    font-weight: bold;
+    color: #222222;
+    text-transform: uppercase;
+}
+
+.word-up-header {
+    font-size: 90px;
+    transform: perspective(40px) rotateX(-20deg) rotateY(0deg) scaleX(1.4) scaleY(1);
+    text-align: center;
+    
+}
+
+.contain-center-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    perspective: 60px;
+}
+
+.letter-left-right-header {
+    margin-top:10px;
+}
+
+.contain-left-word-header{
+    font-size: 120px;
+    transform: perspective(40px) rotateX(0deg) rotateY(20deg) scaleY(3) scaleX(2);
+    padding-left: 30px;
+
+}
+
+.contain-img-mini-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contain-img-mini-header img {
+    width: 70%;
+    margin-top: -50px;
+}
+
+
+.contain-right-word-header {
+    font-size: 120px;
+    transform: perspective(40px) rotateX(0deg) rotateY(-20deg) scaleY(3) scaleX(2);
+    padding-right: 30px;
+}
+
+.word-down-header {
+    font-size: 60px;
+    transform: perspective(20px) rotateX(14deg) rotateY(0deg) scaleY(1);
+    margin-top: -40px;
+    text-align: center;
+}
+
+/* ----------------Section one----------------- */
+
+.section-one{
+    background-image: url(/images/mini-surfi.png) ;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height: 800px;
+    padding-top: 70px;
+}
+
+.contain-general-section-one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+}
+
+.contain-section-one-text-up{
+    display: flex;
+    flex: 1;
+    padding: 20px 30px 0px 120px;
+    align-items: center; 
+    position: relative;
+}
+
+.contain-section-one-text-up p{
+    padding-left: 120px;
+    font-family: "Inter";
+    text-transform: uppercase;
+    font-weight: 700;
+    position: relative;
+}
+
+.contain-section-one-text-up div{
+    content: "";
+    border: 3px rgb(255, 113, 113) solid ;
+    position: absolute;
+    height: 40px;
+    top: 30px;
+    right: 200px;
+}
+
+.contain-section-one-text-medium{
+    display: flex;
+    flex: 1;
+    padding-right: 120px;
+    align-items: center; 
+    padding-left: 30px;
+}
+.contain-section-one-text-medium p{ 
+    padding-right: 60px;
+    font-family: "Inter";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(255, 113, 113);
+
+}
+
+.contain-section-one-text-down{
+    display: flex;
+    flex: 1;
+    padding: 20px 30px 0px 120px;
+    align-items: center; 
+    padding-left: 30px;
+}
+
+.contain-section-one-text-down p{ 
+    padding-left: 120px;
+    font-family: "Inter";
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(255, 113, 113);
+    text-shadow: black;
+}

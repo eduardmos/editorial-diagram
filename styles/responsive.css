@@ -1,0 +1,33 @@
+/* Media query para dispositivos tablet (mayores a 480px y hasta 1023px) */
+@media (min-width: 481px) {
+    /* ------------ header ------------ */
+    .contain-img-mini-header img {
+        width: 30%;
+        margin-top: -50px;
+    }
+     /* ------------ section one ------------ */
+    .contain-section-one-text-up p{
+        padding-left: 180px;
+    }
+    .contain-section-one-text-medium p{ 
+        padding-right: 200px;
+    }
+    .contain-section-one-text-down p{ 
+        padding-left: 250px;
+    }
+    .contain-section-one-text-up div{
+    top: 100px;
+    right: 478px;
+    }
+}
+
+/* Media query para dispositivos de escritorio (mayores a 1024px y hasta 1439px) */
+@media (min-width: 1024px){
+
+}
+
+/* Media query para dispositivos de escritorio XXL (mayores a 1440px) */
+@media (min-width: 1440px) {
+
+
+}
